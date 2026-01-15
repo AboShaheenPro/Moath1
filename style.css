@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(15, 22, 37);
+    background-color: rgb(255, 255, 255);
 }
 header{
     width: 100%;
-    background-color:rgb(26, 39, 66);
+    background-color:rgba(145, 175, 204, 0.253);
     height: 170px;
     border-radius: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 h1{
     text-align: center;
@@ -46,8 +46,8 @@ h1{
   }
 }
 .article-1,.article-2{
-    color: white;
-    background-color: rgb(26, 39, 66);
+    color: rgb(0, 0, 0);
+    background-color: rgba(145, 175, 204, 0.253);
     margin-top: 40px;
     border-radius: 10px;
     width: 100%;
