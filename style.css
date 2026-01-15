@@ -60,8 +60,7 @@ h1{
 }
 
 .article-2{
-    height: 270px;
-
+    height: 250px;
 }
 .p-1{
     text-align: center;
@@ -85,10 +84,10 @@ h1{
     bottom: 100px;
 }
 .p-2{
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     top: 50px;
-    right: 20px;
+    right: 10px;
     direction: rtl;
 }
 .a-1{
@@ -106,3 +105,4 @@ h1{
     color: white;
     font-family: "Rubik", sans-serif;
 }
+
