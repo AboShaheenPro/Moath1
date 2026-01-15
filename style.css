@@ -54,7 +54,14 @@ h1{
     height: 290px;
     font-family: "Roboto", sans-serif;
 }
+.article-1{
+      height: 310px;
+}
 
+.article-2{
+    height: 280px;
+
+}
 .p-1{
     text-align: center;
     margin-right: 10px;
