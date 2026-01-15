@@ -4,7 +4,7 @@ body{
 header{
     width: 100%;
     background-color:rgb(26, 39, 66);
-    height: 160px;
+    height: 170px;
     border-radius: 10px;
     color: white;
 }
@@ -18,7 +18,7 @@ h1{
     font-family: "Playwrite DK Loopet", cursive;
     text-align: center;
     position: relative;
-    top: 20px;
+    top: 10px;
     font-size: 35px;
     font-weight: 800;
     background: linear-gradient(
@@ -55,11 +55,11 @@ h1{
     font-family: "Roboto", sans-serif;
 }
 .article-1{
-      height: 310px;
+      height: 330px;
 }
 
 .article-2{
-    height: 280px;
+    height: 270px;
 
 }
 .p-1{
