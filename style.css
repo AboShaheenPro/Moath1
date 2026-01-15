@@ -55,6 +55,15 @@ h1{
     height: 290px;
     font-family: "Rubik", sans-serif;
 }
+
+@keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .article-1{
       height: 330px;
 }
@@ -106,6 +115,39 @@ h1{
     font-family: "Rubik", sans-serif;
     padding-top: 4px;
 }
+.line {
+    position: relative;
+    bottom: 15px;
+    height: 4px;
+    width: 0;
+    margin: 0 auto;              /* يبدأ من المنتصف */
+    border-radius: 6px;
+    background: linear-gradient(
+        270deg,
+        #00cfff,
+        #b388ff,
+        #5e17eb,
+        #00cfff
+    );
+    background-size: 600% 600%;
+    animation:
+        growFromCenter 0.8s ease-out forwards,
+        gradientMove 6s linear infinite;
+}
 
+/* التمدد من المنتصف يمينًا ويسارًا */
+@keyframes growFromCenter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 150px;
+    }
+}
 
-
+/* حركة الألوان لا نهائية وسلسة */
+@keyframes gradientMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
